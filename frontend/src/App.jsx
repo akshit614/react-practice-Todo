@@ -25,8 +25,8 @@ function App() {
   return (
     
       <div>
-        <CreateTodo></CreateTodo>
-        <Todos todos={todos}></Todos>
+        <CreateTodo class="create-todo"></CreateTodo>
+        <Todos class="todo-container" todos={todos}></Todos>
       </div>
     
   )

@@ -1,0 +1,93 @@
+/* App.css */
+
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for the todo container */
+.todo-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for individual todo items */
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7f1fd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.todo-item h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.todo-item h2 {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0 0;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Input field for adding new todos */
+input {
+    width: calc(100% - 50px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Styling for the CreateTodo section */
+.create-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.create-todo input {
+    flex: 1;
+}
+
+.create-todo button {
+    background-color: #007bff;
+    padding: 10px 15px;
+}
+
+.create-todo button:hover {
+    background-color: #0056b3;
+}
